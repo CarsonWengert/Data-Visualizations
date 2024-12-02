@@ -15,7 +15,7 @@ def semicircleArea(radius, xvalue):
 
 #input variables
 rLarge = 1.0 #outside circle radius
-rRatio = .1 #inside circle radius, as a proportion of outside circle radius. important: maximum of 1/sqrt(2)=0.707
+rRatio = .25 #inside circle radius, as a proportion of outside circle radius. important: maximum of 1/sqrt(2)=0.707
 spacing = 0.1 #gap size between two halves
 filllist = [[1, 'red'], [0.2, 'blue'], [0.1, 'black']] #list of fractions and colors. make this always decreasing; it overlays each additional layer
 
